@@ -2,15 +2,37 @@
   "name": "nuxt-content-starter",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@9.15.5",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
-  "dependencies": {
+  "devDependencies": {
     "@nuxt/content": "^3.1.1",
-    "nuxt": "^3.15.4"
+    "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.1.0",
+    "@types/bootstrap": "^5.2.10",
+    "@types/node": "^22.12.0",
+    "nuxt": "^3.15.4",
+    "prettier": "^3.1.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "dependencies": {
+    "@iconfu/svg-inject": "^1.2.3",
+    "@popperjs/core": "^2.11.8",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.2",
+    "clipboard": "^2.0.11",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "plyr": "^3.7.8",
+    "prismjs": "^1.29.0",
+    "sass": "1.72",
+    "swiper": "^11.0.5",
+    "typewriter-effect": "^2.21.0",
+    "video.js": "^8.6.1",
+    "vue-tippy": "^6.4.1"
   }
 }

@@ -1,0 +1,1 @@
+import{a as r,f as t,k as a,S as l,al as s}from"./B8c25oqj.js";import{_ as n}from"./DlAUqK2U.js";const c=r({__name:"Alert",props:{color:{type:String,default:"orange"}},setup(e){return(o,d)=>(a(),t("div",{class:"alert",style:s({"border-color":e.color})},[l(o.$slots,"default",{},void 0,!0)],4))}}),f=n(c,[["__scopeId","data-v-46dbbe98"]]);export{f as default};
